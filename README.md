@@ -107,4 +107,6 @@ Apple provides learning material through “Pathways,” a guided way to explore
 - https://developer.apple.com/pathways/  
 - https://developer.apple.com/swift/pathway/  
 - https://developer.apple.com/pathways/swiftui/
+
+- >NOTE: API key may be old, might not work anymore
 """
