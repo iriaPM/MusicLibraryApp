@@ -109,4 +109,4 @@ Apple provides learning material through “Pathways,” a guided way to explore
 - https://developer.apple.com/pathways/swiftui/
 
  > API key may be old, might not work anymore
-"""
+
