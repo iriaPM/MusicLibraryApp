@@ -30,7 +30,7 @@
 
 | Home Screen | Search Screen | Album Details | Artists Albums |
 |-------------|---------------|----------------|----------------|
-| ![Home](screenshots/c.jpeg) | ![Search](screenshots/searchView.jpeg) | ![Details](screenshots/albumDetailView.jpeg) | ![Artist Albums](screenshots/artistAlbumsView.jpeg) |
+| ![Home](screenshots/FavAlbums.jpeg) | ![Search](screenshots/searchView.jpeg) | ![Details](screenshots/albumDetailView.jpeg) | ![Artist Albums](screenshots/artistAlbumsView.jpeg) |
 
 ---
 
