@@ -1,11 +1,11 @@
 
-# 🎵 AlbumFinder
+# AlbumFinder
 
 **AlbumFinder** is a SwiftUI iOS application built during my 6-month internship as a starter project to learn iOS development. The app allows users to search for their favorite music albums using the Last.fm API and save them for later viewing. This project helped me explore SwiftUI, SwiftData, RESTful APIs, and local persistence in a real-world context.
 
 ---
 
-## 🚀 Features
+##  Features
 
 -  **Search Albums** – Search for albums by artist or title via the Last.fm API  
 - **Save Favorites** – Save albums locally to view later, even when offline  
