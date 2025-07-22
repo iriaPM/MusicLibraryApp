@@ -1,0 +1,100 @@
+
+# 🎵 AlbumFinder
+
+**AlbumFinder** is a SwiftUI iOS application built during my 6-month internship as a starter project to learn iOS development. The app allows users to search for their favorite music albums using the Last.fm API and save them for later viewing. This project helped me explore SwiftUI, SwiftData, RESTful APIs, and local persistence in a real-world context.
+
+---
+
+## 🚀 Features
+
+- 🔍 **Search Albums** – Search for albums by artist or title via the Last.fm API  
+- 💾 **Save Favorites** – Save albums locally to view later, even when offline  
+- 🖼️ **Album Details** – View album information and cover art  
+- 📲 **SwiftUI Interface** – Built entirely with SwiftUI for a modern, reactive UI  
+- 📦 **Local Storage** – Uses SwiftData for saving favorite albums locally  
+
+---
+
+## 🧑‍💻 Technologies Used
+
+- SwiftUI  
+- SwiftData  
+- MVVM architecture  
+- Last.fm REST API  
+- Xcode 16+  
+- iOS 18+  
+
+---
+
+## 📸 Screenshots
+
+> _Screenshots will be added soon to showcase each screen of the app._
+
+| Home Screen | Search Screen | Album Details | Artists Albums |
+|-------------|---------------|----------------|----------------|
+| ![FavAlbums](screenshots/c.jpeg) | ![searchView](screenshots/searchView.jpeg) | ![albumDetailView](screenshots/albumDetailView.jpeg) | ![artistAlbumsView](screenshots/artistAlbumsView.jpeg) |
+
+---
+
+## 📝 Goals
+
+- Learn SwiftUI and iOS development from scratch  
+- Understand networking and data persistence  
+- Practice clean architecture (MVVM)  
+- Build a real-world portfolio project during my internship  
+
+---
+
+## 🛠️ Setup
+
+1. Clone the repo:
+
+   ```bash
+   git clone https://github.com/iriaPM/MusicLibraryApp
+   ```
+
+2. Open the project in Xcode 16+  
+3. Run on a device or simulator with iOS 18+
+
+---
+
+## 📘 Swift Exercise (Project Brief)
+
+**Swift exercise**:  
+Develop an iPhone-App in Swift for searching and storing music album information provided by the LastFM-API (https://www.last.fm/api , similar alternative APIs would be ok).
+
+The app should contain the following screens:
+
+**Home**:  
+This screen shows all your locally stored albums. A tap on one of these albums opens a Details page. The navigation bar contains a search icon, which opens the Search on tap.
+
+**Search**:  
+It should be possible to search for artists and present the search results in a list. A selection of one list-item opens the Albums screen.
+
+**Albums**:  
+List or collection of albums released by the selected artist. It should be possible to store (and delete stored) albums locally. Stored albums should be visibly marked. Tap on an album opens the detail-page.  
+At least the following information should be stored:  
+- album name  
+- artist  
+- image or imageURL  
+- tracks
+
+**Details**:  
+Overview with detailed information (name, artist, tracks, etc.) about the album. Store and delete functionality.
+
+### Requirements:
+
+- Latest Xcode-Version  
+- Latest Swift-Version  
+- iOS >= 18  
+- API communication in JSON-format  
+- Use the Codable protocol to serialize the JSON  
+- Preferred for storing/saving: CoreData or SwiftData (but feel free to use UserDefaults)
+
+---
+
+**Other links for practice**:  
+Apple also offers something called 'Pathways', this can support you while learning more about Swift and SwiftUI:
+- https://developer.apple.com/pathways/  
+- https://developer.apple.com/swift/pathway/  
+- https://developer.apple.com/pathways/swiftui/
