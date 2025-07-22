@@ -28,8 +28,6 @@
 
 ## Screenshots
 
-> _Screenshots will be added soon to showcase each screen of the app._
-
 | Home Screen | Search Screen | Album Details | Artists Albums |
 |-------------|---------------|----------------|----------------|
 | ![Home](screenshots/c.jpeg) | ![Search](screenshots/searchView.jpeg) | ![Details](screenshots/albumDetailView.jpeg) | ![Artist Albums](screenshots/artistAlbumsView.jpeg) |
