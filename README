@@ -1,4 +1,7 @@
 
+---
+
+````markdown
 # 🎵 AlbumFinder
 
 **AlbumFinder** is a SwiftUI iOS application built during my 6-month internship as a starter project to learn iOS development. The app allows users to search for their favorite music albums using the Last.fm API and save them for later viewing. This project helped me explore SwiftUI, SwiftData, RESTful APIs, and local persistence in a real-world context.
@@ -32,7 +35,7 @@
 
 | Home Screen | Search Screen | Album Details | Artists Albums |
 |-------------|---------------|----------------|----------------|
-| ![FavAlbums](screenshots/c.jpeg) | ![searchView](screenshots/searchView.jpeg) | ![albumDetailView](screenshots/albumDetailView.jpeg) | ![artistAlbumsView](screenshots/artistAlbumsView.jpeg) |
+| ![Home](screenshots/c.jpeg) | ![Search](screenshots/searchView.jpeg) | ![Details](screenshots/albumDetailView.jpeg) | ![Artist Albums](screenshots/artistAlbumsView.jpeg) |
 
 ---
 
@@ -51,50 +54,66 @@
 
    ```bash
    git clone https://github.com/iriaPM/MusicLibraryApp
-   ```
+````
 
-2. Open the project in Xcode 16+  
-3. Run on a device or simulator with iOS 18+
+2. Open the project in **Xcode 16+**
+3. Run on a device or simulator with **iOS 18+**
 
 ---
 
 ## 📘 Swift Exercise (Project Brief)
 
-**Swift exercise**:  
-Develop an iPhone-App in Swift for searching and storing music album information provided by the LastFM-API (https://www.last.fm/api , similar alternative APIs would be ok).
+**Swift exercise**:
+Develop an iPhone app in Swift for searching and storing music album information provided by the Last.fm API ([https://www.last.fm/api](https://www.last.fm/api)). Similar alternative APIs would be acceptable.
 
-The app should contain the following screens:
+### App Screens
 
-**Home**:  
-This screen shows all your locally stored albums. A tap on one of these albums opens a Details page. The navigation bar contains a search icon, which opens the Search on tap.
+#### 🏠 Home
 
-**Search**:  
-It should be possible to search for artists and present the search results in a list. A selection of one list-item opens the Albums screen.
+Displays all locally stored albums. Tapping an album opens the details page. The navigation bar contains a search icon to access the search view.
 
-**Albums**:  
-List or collection of albums released by the selected artist. It should be possible to store (and delete stored) albums locally. Stored albums should be visibly marked. Tap on an album opens the detail-page.  
-At least the following information should be stored:  
-- album name  
-- artist  
-- image or imageURL  
-- tracks
+#### 🔍 Search
 
-**Details**:  
-Overview with detailed information (name, artist, tracks, etc.) about the album. Store and delete functionality.
+Allows users to search for artists. Results appear in a list. Selecting an artist opens the albums screen.
 
-### Requirements:
+#### 💿 Albums
 
-- Latest Xcode-Version  
-- Latest Swift-Version  
-- iOS >= 18  
-- API communication in JSON-format  
-- Use the Codable protocol to serialize the JSON  
-- Preferred for storing/saving: CoreData or SwiftData (but feel free to use UserDefaults)
+Displays a list or grid of albums from the selected artist.
+Features include:
+
+* Store/delete albums locally
+* Visibly mark stored albums
+* Tap to view album details
+
+Stored data includes:
+
+* Album name
+* Artist
+* Image (or imageURL)
+* Tracks
+
+#### 📄 Details
+
+Displays detailed album information (name, artist, tracks, etc.) with options to store or delete the album.
+
+### ✅ Requirements
+
+* Latest Xcode version
+* Latest Swift version
+* iOS 18+
+* API communication using JSON
+* Use `Codable` to serialize JSON
+* Preferred storage: CoreData or SwiftData (UserDefaults is acceptable)
 
 ---
 
-**Other links for practice**:  
-Apple also offers something called 'Pathways', this can support you while learning more about Swift and SwiftUI:
-- https://developer.apple.com/pathways/  
-- https://developer.apple.com/swift/pathway/  
-- https://developer.apple.com/pathways/swiftui/
+## 📚 Other Learning Resources
+
+Apple provides learning material through “Pathways,” a guided way to explore Swift and SwiftUI:
+
+* [Apple Pathways Overview](https://developer.apple.com/pathways/)
+* [Swift Pathway](https://developer.apple.com/swift/pathway/)
+* [SwiftUI Pathway](https://developer.apple.com/pathways/swiftui/)
+
+```
+```
